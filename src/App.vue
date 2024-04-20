@@ -5,7 +5,7 @@
       <h1>Oficina de Vue.js do International Women's Day 2024</h1>
       <p>Essa é uma página criada durante a oficina do International Women's Day 2024 para praticar Vue.js.
         Aqui, mostraremos o perfil de algumas mulheres que impactaram ou impactam o ecossistema de tecnologia</p>
-      <button @click="toggleList">Clique aqui para conferir</button>
+      <button @click="toggleList">{{ showList ? 'Recolher cards' : 'Clique aqui para conferir' }}</button>
     </header>
 
     <main>
